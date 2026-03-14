@@ -1,0 +1,730 @@
+.montserrat-underline {
+    font-family: "Montserrat Underline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+  }
+.montserrat-letra {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+/*-----------------------Inicio-------------------------------*/
+.NAV {
+    width: 100%;
+    height: 70px;
+    background: rgb(255, 133, 133);
+    background: linear-gradient(90deg, rgba(255, 133, 133, 1) 0%, rgba(255, 0, 0, 1) 50%, rgba(255, 133, 133, 1) 100%);
+    display: flex;
+    align-items: center;
+}
+
+.Bandera {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 5px;
+
+}
+
+#Btn-Idioma {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 5;
+    margin-right: 30px;
+    display: flex;
+    width: auto;
+}
+
+#Sobre-Nosotros {
+    background: none;
+    border: none;
+    padding: auto;
+    display: flex;
+
+}
+
+form div label[for="usuario"] {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form div label[for="contraseña"] {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form div label[for="confirmarContraseña"] {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal-footer a {
+    margin-right: 5px;
+}
+
+#link a:hover {
+    text-decoration: none;
+    color: rgba(241, 27, 27, 1) !important;
+}
+
+#link a:active {
+    color: rgb(38, 0, 255);
+}
+
+#terminosYcondiciones {
+    display: flex;
+}
+
+.Cont-Presentacion {
+    background: rgb(255, 133, 133);
+    background: linear-gradient(90deg, rgba(255, 133, 133, 1) 0%, rgba(255, 0, 0, 1) 50%, rgba(255, 133, 133, 1) 100%);
+    width: 100%;
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .Cont-Presentacion {
+        height: 850px;
+        margin-top: 150px;
+        background-color: rgb(158, 152, 152);
+        color: black;
+        font-size: 15px;
+        font-weight: 200;
+    }
+}
+
+
+#Botones {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    width: 70%;
+    border-radius: 10px;
+    background: rgb(222, 211, 211);
+    background: linear-gradient(90deg, rgba(222, 211, 211, 1) 0%, rgba(222, 211, 211, 1) 100%);
+
+}
+
+#Botones button {
+    width: 30%;
+    height: 40px;
+    border: none;
+    background: none;
+    border-radius: 100px;
+    transition: background-color 0.1s ease, box-shadow 0.1s ease;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+button:hover {
+    box-shadow: 0px 1px 4px black;
+    font-weight: 400;
+}
+
+button:active {
+    color: rgba(255, 0, 0, 1);
+}
+
+@media(max-width: 768px) {
+    .Btn-Presentacion {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .Botones {
+        width: 100%;
+        gap: 3%;
+    }
+
+    #Botones button {
+        width: 45%;
+        font-size: 12px;
+    }
+}
+
+@media(min-width:768px) {
+    #titulito {
+        margin-left: 400%;
+    }
+}
+
+.form-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    width: 94%;
+    margin-left: 3%;
+    border-radius: 8px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+/* Estilo de los campos de entrada */
+.form-horizontal input {
+    padding: 15px;
+    border: none;
+    border-right: 1px solid #ccc;
+    width: 16.6%;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.Campos-Formu {
+    font-weight: 500;
+    color: black;
+}
+
+form button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .form-horizontal input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    form button {
+        width: 94%;
+        margin-left: 3%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .form-horizontal {
+        flex-direction: column;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .form-horizontal input {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
+    }
+}
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: none;
+    background: none;
+    width: 96%;
+    margin-left: 1%;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.servicios button {
+    margin-left: 1%;
+    border-radius: 8px;
+    border: none;
+    background: rgb(222, 211, 211);
+    background: linear-gradient(90deg, rgba(222, 211, 211, 1) 0%, rgba(222, 211, 211, 1) 100%);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    width: 23%;
+    height: 65px;
+    transition: background-color 0.1s ease, box-shadow 0.1s ease;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.publicidad {
+    width: 94%;
+    height: 250px;
+    margin-left: 3%;
+    margin-top: 40px;
+    background: none;
+    border-radius: 10px;
+}
+
+.publicidad div div img {
+    border-radius: 10px;
+}
+
+#cards {
+    margin-top: 20px;
+    padding: 40px;
+}
+
+#cards div div div div {
+    border-radius: 10px;
+    background-color: none;
+    color: red;
+    border: none;
+}
+
+
+
+#destinos {
+    display: flex;
+    align-items: center;
+}
+
+#destinos-populares {
+    justify-content: left;
+    font-weight: 500;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+#c {
+    position: relative;
+    transition: 0.1s ease, box-shadow 0.3s ease;
+}
+
+#c:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#c .btn-hover {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    /* Inicia invisible */
+    transition: opacity 0.1s ease;
+}
+
+#c:hover .btn-hover {
+    opacity: 1;
+    /* Hace visible el botón */
+}
+
+.cont-datos {
+    padding: 3%;
+    border-radius: 10px;
+}
+
+#hover-A:hover {
+    color: rgba(241, 27, 27, 1);
+}
+
+#Datos-personales-Email {
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cont-datos {
+    padding: 3%;
+    border-radius: 10px;
+}
+
+#hover-A:hover {
+    color: rgba(241, 27, 27, 1);
+}
+
+#Datos-personales-Email {
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 35%;
+}
+ .direcciones-rentables {
+    padding: 3%;
+    display: flex;
+}
+
+.direcciones-rentables h3 {
+    font-weight: 600;
+}
+
+.direcciones-rentables button {
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: red;
+    width: 13%;
+    margin-left: 64%;
+    font-weight: 400;
+}
+.Container-Direcciones{
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.item{
+    display: flex;
+    background: none;
+    border: none;
+    margin-top: 5%;
+    height: 126px;
+}
+.item img{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+.item h4{
+    margin-left: 10px;
+    margin-top: 3%;
+    font-weight: 400;
+    transition: transform 0.1s ease, box-shadow 0.5s ease; 
+    transform-style: preserve-3d; 
+}
+.item img:hover{
+    transform: rotate3d(3, 1, 0, 15deg) scale(1.15);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2)
+}
+.Apartado-Preguntas {
+    padding: 3%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.Respuesta-Desple {
+    width: 48%;
+    padding: 8px;
+    border-radius: 5px; 
+}
+
+.Ir_Seccion {
+    margin-left: 2%;
+    width: 48%;
+    padding: 8px;
+    border-radius: 5px; 
+}
+.Seccion-Estar-Cerca{
+    width: 100%;
+    height: 210px;
+    margin-top: 50px;
+    background-color: rgb(252, 243, 207);
+    border-radius: 8px;
+    padding: 4%;
+}
+.Noticias{
+    display: flex;
+    padding: 3%;
+}
+#NEW{
+    padding: 3%;
+}
+#card-new{
+    padding: 2%;
+    
+}
+#footer{
+    color: white;
+    padding: 40px 0; 
+    text-align: left;
+    background: rgb(255, 133, 133);
+    background: linear-gradient(90deg, rgba(255, 133, 133, 1) 0%, rgba(255, 0, 0, 1) 50%, rgba(255, 133, 133, 1) 100%);
+}
+/*-----------------------REGISTRO-------------------------------*/
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px; 
+    margin: 0 auto;
+}
+
+.form-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-description {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-input, .form-checkbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-checkbox {
+    width: auto;
+}
+
+.form-checkbox-label {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.form-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: #0056b3;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 20px;
+        max-width: 95%; /* Aumenta el ancho en pantallas medianas */
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+}
+
+/* Media Query para pantallas muy pequeñas (móviles) */
+@media (max-width: 480px) {
+    .form-container {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .form-title {
+        font-size: 20px;
+    }
+
+    .form-description {
+        font-size: 12px;
+    }
+
+    .form-btn {
+        font-size: 14px;
+    }
+
+    .form-input {
+        font-size: 13px;
+    }
+}
+/*----------------Pagina de Vuelos---------------*/
+.Compra{
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+.f{
+    position: absolute; 
+    top: 25%; left: 25%; 
+    transform: translate(-50%, -50%); 
+    color: white; font-size: 24px; 
+    font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/*---------Membresías en compra (versión mejorada)-------*/
+/*---------- Sección de planes de membresía ----------*/
+.pricing-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #f5f7fa, #e2ebf0);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.pricing-section h2 {
+  font-size: 2rem;
+  color: #d32f2f;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.pricing-section .subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2.5rem;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Tarjetas de plan */
+.plan {
+  background: #fff;
+  border-radius: 18px;
+  padding: 2rem 1.5rem;
+  width: 280px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.plan:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.plan h3 {
+  color: #d32f2f;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.plan .description {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+  min-height: 40px;
+}
+
+.plan .price {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.plan .price span {
+  display: block;
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: 800;
+  margin-top: 0.3rem;
+}
+
+.plan .features {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 1.5rem 0;
+  text-align: left;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+.plan .features li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Botón */
+.plan button {
+  background: #d32f2f;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.plan button:hover {
+  background: #b71c1c;
+}
+
+/* Plan destacado */
+.plan.featured {
+  border: 2px solid #d32f2f;
+  background: linear-gradient(180deg, #fff, #fdeaea);
+  transform: scale(1.05);
+}
+
+.plan.featured .tag {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  background: #d32f2f;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+/*---------Fin membresías-------*/
+
+
+/*---------boto  de escribenos-------*/
+  .btn-rojo {
+      background-color: #e60000; /* rojo fuerte */
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+      margin-top: 25px;
+    }
+
+    .btn-rojo:hover {
+      background-color: #b30000; 
+    }
+    /*--------- fin boto  de escribenos-------*/
